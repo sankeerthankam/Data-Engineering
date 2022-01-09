@@ -1,5 +1,10 @@
 def isAnagram(s, t):
     # Approach 1 - Use Counter from Collections
+    from collections import Counter
+    if Counter(s) == Counter(t):
+        return True
+    return False
+    
     # Approach 2 - Implement Counter and Compare the Counter objects for the two strings        
     def Counter(st):
         d = {}
