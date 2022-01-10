@@ -1,4 +1,5 @@
 def isAnagram(s, t):
+    
     # Approach 1 - Use Counter from Collections
     from collections import Counter
     if Counter(s) == Counter(t):
